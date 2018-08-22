@@ -51,7 +51,7 @@ puts bracket_data[:wildcard_game1]
 puts bracket_data[:wildcard_game2]
 ```
 
-We were instructed *not* to scrape a bunch of data into a pre-defined hash and then dump that hash out into the terminal. With something like the cooking blog, this hash scrape and dump is possible. We could scrape date a hash
+We were instructed *not* to scrape a bunch of data into a pre-defined hash and then dump that hash out into the terminal. With something like the cooking blog, this hash scrape and dump is possible. We could scrape data into a hash
 
 ```
 blog_post = {
