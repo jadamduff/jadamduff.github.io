@@ -69,4 +69,23 @@ But with Super Bowl Bracketeer, I couldnt get away with this -- mainly because t
 
 ![](https://i.imgur.com/EhTSZJx.png)
 
+Its ordered by date! And dates don't do much for helping us figure out bracket order.  Brackets are ordered by wins, not dates.  Imagine if I just used the data as-is and spit it out into the terminal... It would be a mess.  Yes, the teams in each round would be correct, but the games wouldn't connect to eachother. So, instead of scraping and dumping, I was *forced* to store the data in Object instances and perform logic on it via Object Methods.
 
+I ended up creating a group of Object relationships `bracket -> round -> game -> team`, each working together to fill the bracket and get it in the correct order.
+
+### Expansion
+
+I think Super Bowl Bracketeer is pretty cool, but I'd like to note a couple ideas for future expansion.
+
+#### 1. Increase the year range for bracket search
+
+Currently the year range is 1990-2017 because 1990 is the year that the NFL implemented a 4 wild card game playoff. For some time before 1990 there were only two wild card games and at some point even earlier there were none.  With some additional logic, the year range could be expanded to include every NFL playoff ever played.
+
+#### 2. Add another data layer
+
+I think it would be cool for the user to get game and season stats for an individual player on a team roster.  This would require adding a Player class and a player_scraper method to the Scraper class.
+
+
+If you're reading this, please feel free to take what I've done and run with it.
+
+Enjoy!
