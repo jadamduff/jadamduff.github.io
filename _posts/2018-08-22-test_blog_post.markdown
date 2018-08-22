@@ -8,7 +8,7 @@ permalink:  test_blog_post
 
 I've recently finished working on my CLI Data Gem project for Flatiron School, a project to build a Ruby Gem using Nokogiri and OpenURI to scrape data from a web page and display it using a CLI.  Additionally, our CLI was to have at least one nested menu where a user could request and receive additional data.
 
-You can check out my code at [https://github.com/jadamduff/sb_bracketeer](http://).
+You can check out my code on [GitHub](https://github.com/jadamduff/sb_bracketeer).
 
 ## Superbowl Bracketeer
 
