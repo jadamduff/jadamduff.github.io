@@ -66,4 +66,4 @@ blog_post = {
 and iterate over blog_post, puts-ing each key value in perfect order.
 
 But with Super Bowl Bracketeer, I couldnt get away with this -- mainly because the playoff data I was scraping *didn't come in bracket format*.  Take a look at the way the data is displayed on [footballdb.com](https://www.footballdb.com/):
-![](https://imgur.com/a/toiDRuQ)
+![](https://imgur.com/EhTSZJx)
