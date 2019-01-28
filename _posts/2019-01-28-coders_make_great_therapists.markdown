@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Coders Make Great Therapists"
-date:       2019-01-28 20:15:51 +0000
+date:       2019-01-28 15:15:52 -0500
 permalink:  coders_make_great_therapists
 ---
 
